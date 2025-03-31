@@ -1,0 +1,16 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="FollowCam">
+			<method name="SwitchView"/>
+		</type>
+		<type fullname="MissionDemolition">
+			<method name="PlayAgain"/>
+			<method name="ReturnToMenu"/>
+		</type>
+		<type fullname="Title">
+			<method name="QuitGame"/>
+			<method name="ResetTopScore"/>
+			<method name="StartNewGame"/>
+		</type>
+	</assembly>
+</linker>
